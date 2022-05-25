@@ -26,4 +26,4 @@ export default {
     items: { type: Array, default: Array },
   },
 };
-</script>`;
+&lt;/script&gt;`;

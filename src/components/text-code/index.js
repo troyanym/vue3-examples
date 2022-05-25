@@ -23,9 +23,9 @@ export default defineComponent({
     const prismLanguage = Prism.languages[language];
     const className = `language-${language}`;
     let code =
-      props.code || (defaultSlot && defaultSlot.length)
+      props.code || ((defaultSlot && defaultSlot.length)
         ? defaultSlot[0].children
-        : '';
+        : '');
 
     if (process.env.NODE_ENV === 'development' && !prismLanguage) {
       throw new Error(
