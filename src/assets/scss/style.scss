@@ -1,0 +1,21 @@
+html, body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+a,
+button {
+  transition: .3s ease-in-out;
+  transition-property: color, background-color, opacity;
+}
+
+.page-content {
+  margin-top: 18px;
+}
